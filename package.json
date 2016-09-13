@@ -1,11 +1,11 @@
 {
   "name": "info-command",
   "description": "",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "homepage": "http://github.com/dragonprojects/info-command",
   "license": "MIT",
   "readmeFilename": "README.md",
-  "main": "dest/command.js",
+  "main": "dest/lib.js",
   "scripts": {
     "prepublish": "npm run transpile",
     "transpile": "babel src -d dest"
